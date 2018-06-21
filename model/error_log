@@ -1,0 +1,2 @@
+[28-Nov-2016 21:28:41 Asia/Singapore] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/acesucce/public_html/dashboard/RRPhpLibrary/PhpCrud.php:43) in /home/acesucce/public_html/dashboard/model/delete.php on line 18
+[28-Nov-2016 21:29:44 Asia/Singapore] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/acesucce/public_html/dashboard/RRPhpLibrary/PhpCrud.php:43) in /home/acesucce/public_html/dashboard/model/delete.php on line 18

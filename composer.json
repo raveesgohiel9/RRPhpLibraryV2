@@ -1,0 +1,9 @@
+{
+    "autoload": {
+        "classmap":[
+            "RRPhpLibraryV2",
+             "RRPhpLibraryV2/Helpers",
+             "model"
+        ]
+    }
+}
