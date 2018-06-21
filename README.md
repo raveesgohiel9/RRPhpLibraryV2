@@ -10,3 +10,5 @@ The project was based on Admin Panel LTE which is a template generated using the
 5) Single pattern - Check RRPhpLibraryV2/Helpers/Connection.php
 
 The code may raise a lot of questions since it is incomplete.
+
+The ZIP file template.zip must be unzipped and put at the same level as RRPhpLibrary.
