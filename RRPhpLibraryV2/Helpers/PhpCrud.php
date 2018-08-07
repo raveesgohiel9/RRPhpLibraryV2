@@ -1,4 +1,6 @@
+
 <?php
+namespace RRPhpLibraryV2\Helpers;
 
 use RRPhpLibraryV2\Helpers\TableList as TableList;
 use RRPhpLibraryV2\Helpers\Connection as Connection;

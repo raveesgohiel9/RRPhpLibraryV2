@@ -5,9 +5,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-include 'RRPhpLibraryV2/RRPhpLibrary.php';
+//include 'RRPhpLibraryV2/RRPhpLibrary.php';
+require_once __DIR__ .'/vendor/autoload.php';
 
-$RRPhpLib = new RRPhpLibrary;
+use RRPhpLibraryV2\RRPhpLibrary as RRPhpLibraryV2;
+
+$RRPhpLib = new RRPhpLibraryV2($pCrud);
 print_r($RRPhpLib->pCrud->getFieldList("users_all"));
  
 
