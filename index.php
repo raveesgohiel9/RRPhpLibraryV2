@@ -8,11 +8,10 @@
 //include 'RRPhpLibraryV2/RRPhpLibrary.php';
 require_once __DIR__ .'/vendor/autoload.php';
 
-use RRPhpLibraryV2\RRPhpLibrary as RRPhpLibraryV2;
+use RRPhpLibraryV2\RRPhpLibrary as RRPhpLibrary;
 
-$RRPhpLib = new RRPhpLibraryV2($pCrud);
+$RRPhpLib = new RRPhpLibrary();
 print_r($RRPhpLib->pCrud->getFieldList("users_all"));
- 
 
 ?>
 

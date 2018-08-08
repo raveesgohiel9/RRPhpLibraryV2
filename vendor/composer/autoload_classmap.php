@@ -6,10 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PhpCrud' => $baseDir . '/RRPhpLibraryV2/Helpers/PhpCrud.php',
-    'RRPhpLibrary' => $baseDir . '/RRPhpLibraryV2/RRPhpLibrary.php',
     'RRPhpLibraryV2\\Helpers\\Connection' => $baseDir . '/RRPhpLibraryV2/Helpers/Connection.php',
+    'RRPhpLibraryV2\\Helpers\\PhpCrud' => $baseDir . '/RRPhpLibraryV2/Helpers/PhpCrud.php',
     'RRPhpLibraryV2\\Helpers\\TableList' => $baseDir . '/RRPhpLibraryV2/Helpers/TableList.php',
+    'RRPhpLibraryV2\\RRPhpLibrary' => $baseDir . '/RRPhpLibraryV2/RRPhpLibrary.php',
+    'model\\Model' => $baseDir . '/model/Model.php',
     'model\\user' => $baseDir . '/model/user.php',
     'paypal_class' => $baseDir . '/model/PayPalCode/paypal.class.php',
 );
